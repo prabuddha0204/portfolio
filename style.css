@@ -95,7 +95,7 @@ footer{
 .textskills{
     font-size: larger;
 }
-@media (max-width:375px){
+@media (max-width: 768px){
     .body{
         height: 450px;
         font-size: smaller;
@@ -123,7 +123,7 @@ footer{
     .myskills{
         height:600px;
     }
-    .footer{
-        font-size: 5px;
+    footer{
+        font-size: 10px;
     }    
 }
