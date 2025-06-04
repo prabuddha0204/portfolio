@@ -31,7 +31,7 @@ span{
 }
 .body{
     margin:10px;
-    border-radius: 40px;
+    border-radius: 20px;
     height:320px;
     background-color:#bee9e8;
     display:flex;
@@ -83,27 +83,41 @@ footer{
 }
 .myskills{
     margin:10px;
-    border-radius: 40px;
+    border-radius: 20px;
     height:310px;
     background-color: #83c5be;
 }
 .skills{
     padding: 10px;
     font-weight: bold;
-    font-size: large;
+    font-size: 18px;
 }
 .textskills{
     font-size: larger;
 }
+@media (max-width:1285px){
+    .body{
+        height:fit-content;
+    }
+    .photo{
+        padding-top: 90px;
+        height: 0.5rem;
+        width: 0.5rem;
+        
+    }
+    .myskills{
+        height:fit-content;
+    }
+}
 @media (max-width: 768px){
     .body{
-        height: 450px;
+        height:fit-content;
         font-size: smaller;
     }
     .photo{
-        padding-top: 15px;
-        height: 50px;
-        width: 50px;
+        padding-top: 30px;
+        height: 0.5em;
+        width: 0.5em;
         
     }
     .photo img{
@@ -114,14 +128,11 @@ footer{
     h1{
         font-size:larger;
     }
-    .skills{
-        font-size:smaller;
-    }
     .textskills{
     font-size:smaller;
     }
     .myskills{
-        height:600px;
+        height:fit-content;
     }
     footer{
         font-size: 10px;
