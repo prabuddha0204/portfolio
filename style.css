@@ -70,13 +70,14 @@ text{
     
 }
 footer{
+    border-radius: 20px;
     font-family: "DM Sans", sans-serif;
     font-size: small;
     font-weight: 600;
-    height:50px;
+    height:20px;
     background-color: #ffddd2;
     display:flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     color:black;
 
