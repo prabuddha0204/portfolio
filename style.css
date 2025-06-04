@@ -107,6 +107,7 @@ footer{
     }
     .myskills{
         height:fit-content;
+        margin-bottom: 25px;
     }
 }
 @media (max-width: 768px){
@@ -133,6 +134,7 @@ footer{
     }
     .myskills{
         height:fit-content;
+        margin-bottom: 25px;
     }
     footer{
         font-size: 10px;
