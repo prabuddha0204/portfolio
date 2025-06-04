@@ -62,11 +62,10 @@ text{
     
 }
 .photo img{
-    
     object-fit: cover;
     border-radius: 50%;
     height: 150px;
-    width: 150px;;
+    width: 150px;
     border: 5px solid black;
     
 }
@@ -90,11 +89,41 @@ footer{
 }
 .skills{
     padding: 10px;
-    
     font-weight: bold;
     font-size: large;
 }
 .textskills{
     font-size: larger;
 }
-
+@media (max-width:375px){
+    .body{
+        height: 450px;
+        font-size: smaller;
+    }
+    .photo{
+        padding-top: 15px;
+        height: 50px;
+        width: 50px;
+        
+    }
+    .photo img{
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+    }
+    h1{
+        font-size:larger;
+    }
+    .skills{
+        font-size:smaller;
+    }
+    .textskills{
+    font-size:smaller;
+    }
+    .myskills{
+        height:600px;
+    }
+    .footer{
+        font-size: 5px;
+    }    
+}
