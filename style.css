@@ -96,6 +96,13 @@ footer{
     font-size: larger;
 }
 @media (max-width:1285px){
+    header{
+        height: fit-content;
+    }
+    h1{
+        padding-top: 17px;
+        font-size:x-large;
+    }
     .body{
         height:fit-content;
     }
@@ -125,9 +132,6 @@ footer{
         height: 50px;
         width: 50px;
         border: 2px solid black;
-    }
-    h1{
-        font-size:larger;
     }
     .textskills{
     font-size:smaller;
