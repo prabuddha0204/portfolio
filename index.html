@@ -13,11 +13,14 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" href="myphoto.jpg" class="logo">
+<link rel="icon" href="myphoto.jpg" class="">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
 </head>
 
+
 <body>
-    <header>
+    <header data-aos="fade-right">
         <h1>Hi! I am <span>Prabuddha Saxena</span></h1>
         <div class="link">
             <a href="https://www.linkedin.com/in/prabuddha-saxena/">
@@ -27,7 +30,7 @@
     </header>
     
     <div class="body">
-        <div class="text">
+        <div class="text"data-aos="fade-right"">
             <h4>ABOUT ME:</h4>
             <p>Electronics Student | Aspiring Software & Web Developer | DSA & Adobe Enthusiast
                 2nd Semester, Jaypee Institute of Information Technology
@@ -44,11 +47,11 @@
                 skills. Always open to learning and collaboration.</p>
 
         </div>
-        <div class="photo">
+        <div class="photo"data-aos="fade-left">
             <img src="myphoto.jpg" alt="myphoto" ;>
         </div>
     </div>
-    <div class="myskills">
+    <div class="myskills"data-aos="fade-right">
         <h4 class="skills">SKILLS:</h4>
         <p class="textskills">I am a motivated and detail-oriented individual with a strong foundation in both technical
             and interpersonal skills. My core strengths lie in programming, web development, and problem-solving. I have
@@ -67,6 +70,13 @@
     <footer>
         MADE WITH &#x2665;&#xfe0f; BY ME!
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
 </body>
 
 </html>
